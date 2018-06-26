@@ -1,8 +1,51 @@
 body {
+    background-image: url("bg.jpg");
+}
+
+header {
     width: 100%;
-    margin: auto;
+    margin-bottom: 100px;
+    background-color: darkgray;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 30px;
 }
-h1 {
-  color: red;
-  text-align: center;
+
+main {
+    width: 100%;
+    background-color: darkgray;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 1px;
 }
+
+nav {
+    margin-top: 100px;
+    background-color: darkgray;
+    border-radius: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+li {
+    width: 100%;
+    list-style-type: none;
+    padding-left: 2px;
+    display: inline;
+}
+
+ul li a {
+    float: left;
+    padding-right:4px;
+    border-right: solid;
+    padding-left: 4px;
+}
+
+
+h2, h4 {
+    position: relative;
+    left: 20px;
+    padding: 0;
+}
+
+
