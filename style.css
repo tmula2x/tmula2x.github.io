@@ -1,5 +1,7 @@
 body {
     background-image: url("bg.jpg");
+      height: auto;
+    overflow: hidden;
 }
 
 header {
