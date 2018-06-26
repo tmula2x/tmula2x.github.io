@@ -13,7 +13,7 @@ header {
     text-align: center;
     color: aliceblue;
     border-radius: 30px;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 main {
@@ -26,10 +26,11 @@ main {
 
 
 nav {
-    margin-top: 100px;
+    margin-top: 90px;
     background-color: darkgray;
     border-radius: 30px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 li {
@@ -61,5 +62,4 @@ img{
     left: 35%;
     border-radius: 25px;
 }
-
 
